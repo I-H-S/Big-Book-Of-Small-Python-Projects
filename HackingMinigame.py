@@ -1,3 +1,9 @@
+"""Hacking Minigame, by Al Sweigart al@inventwithpython.com
+The hacking mini-game from "Fallout 3". Find out which seven-letter
+word is the password by using clues each guess gives you.
+View this code at https://nostarch.com/big-book-small-python-projects
+Tags: large, artistic, game, puzzle"""
+
 import random, sys
 GARBAGE_CHARS = '~!@#$%^&*()_+-={}[]|;:,.<>?/'
 with open('sevenletterwords.txt') as wordListFile:
